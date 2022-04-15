@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.cabeza
+{
+    background:#902035 ;
+    height: 150px;
+    text-align: center;
+    background-image: url(../img/logoheader.png);
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+
+.nav-link
+{
+    display:block;
+    color:#F2F2F2;
+    text-align: center;
+    padding:10px;
+    text-decoration:none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-link:hover
+{
+    color:#ecd90a;
+}

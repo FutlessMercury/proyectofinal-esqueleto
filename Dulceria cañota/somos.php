@@ -24,7 +24,7 @@
     <a class="nav-link" href="catalogo.php">Catálogo</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link  " href="sesion.php">Inicio de sesión</a>
+    <a class="nav-link  " href="inicio.php">Inicio de sesión</a>
   </li>
   <li class="nav-item">
     <a class="nav-link  " href="galeria.php">Galeria</a>

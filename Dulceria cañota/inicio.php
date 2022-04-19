@@ -20,7 +20,10 @@
         <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
         
         <!-- Link hacia el archivo de estilos css -->
-        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/loginprueba.css">
         
         <style type="text/css">
             
@@ -33,7 +36,30 @@
     </head>
     
     <body>
-        
+    <header class="cabeza">
+    <div>
+    <nav>
+    <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link " aria-current="page" href="index.php">Inicio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="somos.php">¿Quiénes somos?</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="catalogo.php">Catálogo</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link  " href="inicio.php">Inicio de sesión</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link  " href="galeria.php">Galeria</a>
+  </li>
+</ul>
+    </nav>
+    </div>
+</header>
+        <section>
         <div id="contenedor">
             <div id="central">
                 <div id="login">
@@ -57,6 +83,8 @@
                 </div>
             </div>
         </div>
+        </section>
+        
             
     </body>
 </html>
